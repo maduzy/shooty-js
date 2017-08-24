@@ -1,3 +1,5 @@
+//Start and end game sounds are from the Metal Gear Solid saga and therefore belong to Konami Entertainment. This assignment is made for educational purposes only.
+
 createjs.Sound.registerSound({id:"gun", src:"assets/gunshot1.mp3"});
 	createjs.Sound.registerSound({id:"gunammo", src:"assets/gunammo.mp3"});
 	createjs.Sound.registerSound({id:"dart", src:"assets/gunshot2.mp3"});

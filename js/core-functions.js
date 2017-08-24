@@ -685,13 +685,13 @@
 		document.getElementById("mobs-captured").innerHTML = "Captures: " + mobsCaptured;
 		
 		if(lethal==false) {
-		bul.style.background= "url('dart.png') left top no-repeat";
+		bul.style.background= "url('assets/dart.png') left top no-repeat";
 		bul.style.color = "green";
 		bul.innerHTML = "Non-lethal";
 		
 		
 		} else {
-		bul.style.background= "url('let.png') left top no-repeat";
+		bul.style.background= "url('assets/let.png') left top no-repeat";
 		bul.style.color = "red";
 		bul.innerHTML = "Lethal";
  

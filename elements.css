@@ -6,7 +6,7 @@ br {
 	font-family: Sans-Serif;
 }
 #snakeI {
-	background-image:url('snakeI.gif');
+	background-image:url('assets/snakeI.gif');
 	background-repeat: no-repeat top;
     background-size: contain;
 	
@@ -15,7 +15,7 @@ br {
 	height: 50px;	
 }
 #snakeL {
-	background-image:url('snakeL.gif');
+	background-image:url('assets/snakeL.gif');
 	background-repeat: no-repeat top;
     background-size: contain;
 	
@@ -25,7 +25,7 @@ br {
 }
 
 #snakeR {
-	background-image:url('snake.gif');
+	background-image:url('assets/snake.gif');
 	background-repeat: no-repeat top;
     background-size: contain;
 	
@@ -35,7 +35,7 @@ br {
 }
 
 #bullet {
-	background-image:url('bullet.png');
+	background-image:url('assets/bullet.png');
 	background-repeat: no-repeat;
     background-size: contain;
 	
@@ -44,7 +44,7 @@ br {
 	height: 16px;	
 }
 #bulletU {
-	background-image:url('bulletU.png');
+	background-image:url('assets/bulletU.png');
 	background-repeat: no-repeat;
     background-size: contain;
 	
@@ -54,7 +54,7 @@ br {
 }
 
 #bulletDrone {
-	background-image:url('missile.png');
+	background-image:url('assets/missile.png');
 	background-repeat: no-repeat;
     background-size: contain;
 	
@@ -63,7 +63,7 @@ br {
 	height: 15px;	
 }
 #bulletSoldier {
-	background-image:url('rocket.png');
+	background-image:url('assets/rocket.png');
 	background-repeat: no-repeat;
     background-size: contain;
 	
@@ -72,7 +72,7 @@ br {
 	height: 15px;	
 }
 #drone {
-	background-image:url('drone.gif');
+	background-image:url('assets/drone.gif');
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -81,7 +81,7 @@ br {
 }
 
 #soldier {
-	background-image:url('soldier.gif');
+	background-image:url('assets/soldier.gif');
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -91,7 +91,7 @@ br {
 
 
 #explosion {
-	background-image:url('explosion.gif');
+	background-image:url('assets/explosion.gif');
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -100,7 +100,7 @@ br {
 }
 
 #death {
-	background-image:url('soldier-shot.gif');
+	background-image:url('assets/soldier-shot.gif');
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -109,7 +109,7 @@ br {
 }
 
 #stun {
-	background-image:url('soldier-stun.gif');
+	background-image:url('assets/soldier-stun.gif');
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -149,7 +149,7 @@ br {
 	padding-left: 25px;
 }
 #dart {
-	background: url('dart.png') left top no-repeat;
+	background: url('assets/dart.png') left top no-repeat;
 	position: absolute;
 	width: 120px;
 	height: 60px;	
