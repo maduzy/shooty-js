@@ -1,0 +1,14 @@
+
+
+body {
+	background-color: black;
+	margin: 0px;
+	padding: 0px;	
+	text-align:right;
+	
+	background-image:url('bg.jpg');
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+    /*background-size: 375px 600px;*/
+	overflow: hidden;
+}

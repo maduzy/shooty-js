@@ -1,0 +1,175 @@
+
+br {
+	margin-top: 10px;
+}
+
+#snakeI {
+	background-image:url('snakeI.gif');
+	background-repeat: no-repeat top;
+    background-size: contain;
+	
+	position: absolute;
+	width: 50px;
+	height: 50px;	
+}
+#snakeL {
+	background-image:url('snakeL.gif');
+	background-repeat: no-repeat top;
+    background-size: contain;
+	
+	position: absolute;
+	width: 50px;
+	height: 50px;	
+}
+
+#snakeR {
+	background-image:url('snake.gif');
+	background-repeat: no-repeat top;
+    background-size: contain;
+	
+	position: absolute;
+	width: 50px;
+	height: 50px;	
+}
+
+#bullet {
+	background-image:url('bullet.png');
+	background-repeat: no-repeat;
+    background-size: contain;
+	
+	position: absolute;
+	width: 16px;
+	height: 16px;	
+}
+#bulletU {
+	background-image:url('bulletU.png');
+	background-repeat: no-repeat;
+    background-size: contain;
+	
+	position: absolute;
+	width: 16px;
+	height: 16px;	
+}
+
+#bulletDrone {
+	background-image:url('missile.png');
+	background-repeat: no-repeat;
+    background-size: contain;
+	
+	position: absolute;
+	width: 15px;
+	height: 15px;	
+}
+#bulletSoldier {
+	background-image:url('rocket.png');
+	background-repeat: no-repeat;
+    background-size: contain;
+	
+	position: absolute;
+	width: 15px;
+	height: 15px;	
+}
+#drone {
+	background-image:url('drone.gif');
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	width: 24px;
+	height: 24px;	
+}
+
+#soldier {
+	background-image:url('soldier.gif');
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	width: 70px;
+	height: 70px;
+}
+
+
+#explosion {
+	background-image:url('explosion.gif');
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	width: 24px;
+	height: 24px;	
+}
+
+#death {
+	background-image:url('soldier-shot.gif');
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	width: 70px;
+	height: 70px;	
+}
+
+#stun {
+	background-image:url('soldier-stun.gif');
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	width: 70px;
+	height: 70px;	
+}
+
+#mob-hits {
+	position: absolute;
+	width: 120px;
+	height: 60px;	
+	left: 50px;
+	top: 20px;
+	font-family: Sans-Serif;
+	font-size: 20px;
+	color: #FFFFFF;	
+}
+
+#mobs-captured {
+	position: absolute;
+	width: 120px;
+	height: 60px;	
+	left: 50px;
+	top: 60px;
+	font-family: Sans-Serif;
+	font-size: 20px;
+	color: yellow;	
+}
+#bulletType {
+	background: url('let.png') left top no-repeat;
+	position: absolute;
+	width: 120px;
+	height: 60px;	
+	left: 20px;
+	bottom: 200px;
+	font-family: Sans-Serif;
+	font-size: 15px;
+	color: red;
+	text-align: left;
+	padding-left: 25px;
+}
+#dart {
+	background: url('dart.png') left top no-repeat;
+	position: absolute;
+	width: 120px;
+	height: 60px;	
+	left: 20px;
+	bottom: 200px;
+	font-family: Sans-Serif;
+	font-size: 15px;
+	color: green;
+	text-align: left;
+	padding-left: 25px;
+
+}
+#endScore {
+	font-family: Sans-Serif;
+	position: absolute;
+	color: white;
+	width: 300px;
+	height: 100px;
+	font-size: 30px;
+	top: 180px;
+	left: 340px;
+}
